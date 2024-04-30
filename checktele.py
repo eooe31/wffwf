@@ -64,10 +64,11 @@ def gen_user(choice):
         else:
             pass
     elif choice == "سد":
-        c = d = random.choices(a)
-        d = random.choices(a)
+        c = random.choices(a)
+        d = random.choices(e)
+        s = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], d[0]]
-        random.shuffle(f)
+        username = "".join(f)
     elif choice == "سداسيات":
         c = d = random.choices(e)
         d = random.choices(e)
@@ -84,34 +85,39 @@ def gen_user(choice):
         username = username + "bot"
 
     elif choice == "سدا":
-        c = d = random.choices(e)
+        c = random.choices(a)
         d = random.choices(e)
+        s = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], d[0]]
-        random.shuffle(f)
+        username = "".join(f)
 
     elif choice == "سداس":
-        c = d = random.choices(a)
+        c = random.choices(a)
         d = random.choices(e)
+        s = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], c[0]]
-        random.shuffle(f)
+        username = "".join(f)
 
     elif choice == "سدس":
-        c = d = random.choices(a)
+        c = random.choices(a)
         d = random.choices(e)
+        s = random.choices(e)
         f = [c[0], c[0], d[0], d[0], c[0], c[0]]
-        random.shuffle(f)
+        username = "".join(f)
         
     elif choice == "سدو":
-        c = d = random.choices(a)
+        c = random.choices(a)
         d = random.choices(e)
+        s = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], d[0]]
-        random.shuffle(f)
+        username = "".join(f)
         
     elif choice == "س":
-        c = d = random.choices(a)
+        c = random.choices(a)
         d = random.choices(e)
-        f = [c[0], c[0], d[0], c[0], c[0], d[0]]
-        random.shuffle(f)
+        s = random.choices(e)
+        f = [c[0], c[0], d[0], c[0], c[0], d[0]] 
+        username = "".join(f)
     else:
         return "error"
     return username
