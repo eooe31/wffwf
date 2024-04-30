@@ -66,7 +66,6 @@ def gen_user(choice):
     elif choice == "سد":
         c = random.choices(a)
         d = random.choices(e)
-        s = random.choices(e)
         f = [c[0], d[0], c[0], d[0], d[0], d[0]]
         username = "".join(f)
     elif choice == "سداسيات":
@@ -87,35 +86,30 @@ def gen_user(choice):
     elif choice == "سدا":
         c = random.choices(a)
         d = random.choices(e)
-        s = random.choices(e)
         f = [c[0], c[0], d[0], d[0], d[0], d[0]]
         username = "".join(f)
 
     elif choice == "سداس":
         c = random.choices(a)
         d = random.choices(e)
-        s = random.choices(e)
         f = [c[0], d[0], d[0], d[0], d[0], c[0]]
         username = "".join(f)
 
     elif choice == "سدس":
         c = random.choices(a)
         d = random.choices(e)
-        s = random.choices(e)
         f = [c[0], c[0], d[0], d[0], c[0], c[0]]
         username = "".join(f)
         
     elif choice == "سدو":
         c = random.choices(a)
         d = random.choices(e)
-        s = random.choices(e)
         f = [c[0], c[0], c[0], d[0], c[0], d[0]]
         username = "".join(f)
         
     elif choice == "س":
         c = random.choices(a)
         d = random.choices(e)
-        s = random.choices(e)
         f = [c[0], c[0], d[0], c[0], c[0], d[0]] 
         username = "".join(f)
     else:
